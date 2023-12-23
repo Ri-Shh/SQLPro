@@ -13,13 +13,13 @@ function CSV(props) {
             try {
                 let response;
                 if(props.run === 1) {
-                    response = await axios.get('/data/addresses.csv');
+                    response = await axios.get(process.env.PUBLIC_URL + '/addresses.csv');
                 } else if(props.run == 2) {
-                    response = await axios.get('/data/medium.csv');
+                    response = await axios.get(process.env.PUBLIC_URL + '/medium.csv');
                 } else {
-                    response = await axios.get('/data/large.csv');
+                    response = await axios.get(process.env.PUBLIC_URL + '/large.csv');
                 }
-      
+
                 // Parse CSV data
                 Papa.parse(response.data, {
                     header: true,
