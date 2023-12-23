@@ -1,0 +1,86 @@
+.taskflex {
+    height: 100%;
+    width: 100%;
+    /* background-color: orange; */
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items:center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    font-size: small;
+}
+
+.taskleft {
+    height: 60%;
+    width: auto;
+    /* background-color: blue; */
+}
+
+.taskright {
+    height: 60%;
+    width: auto;
+    /* background-color: green; */
+}
+
+.taskleft > div, .taskright > div {
+    display: inline-block;
+    background-color: rgb(248, 210, 140);
+    margin-right: 10px;
+    width: 60px;
+    height: 100%;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.taskleft > div:hover, .taskright > div:hover {
+    background-color: orange;
+}
+
+
+.taskOption {
+    position: relative;
+    cursor: pointer;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.dropdownContent {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    z-index: 7;
+}
+
+.dropdownContent > div {
+    border: 1px black;
+}
+
+.dropdownContent > div:hover {
+    background-color: orange;
+    /* border: 1px black; */
+}
+
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 3; /* Make sure it's on top of other elements */
+}
+
+.modalContent {
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+}
