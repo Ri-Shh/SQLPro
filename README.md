@@ -20,7 +20,7 @@ Clone the repo and run the following:
 6. react-pro-sidebar -> for sidebar display
 7. react-quill -> for text editor
 
-# We have attached three example queries in "Run" bar:
+# I have attached three example queries in "Run" bar:
 1. Small query -> Runs fast
 2. Medium query -> Takes a second
 3. Large query -> Takes a lot of time -> Have used useDeferredValue hook of react to solve slow render issues by adding a delay. It can also improve the speed of an application by delaying state updates.
