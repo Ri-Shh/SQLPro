@@ -1,20 +1,20 @@
 {
   "files": {
     "main.css": "/atlan/static/css/main.85f4f4ad.css",
-    "main.js": "/atlan/static/js/main.1ddf79d0.js",
+    "main.js": "/atlan/static/js/main.1fa08fb0.js",
     "static/js/498.ad07b1f9.chunk.js": "/atlan/static/js/498.ad07b1f9.chunk.js",
     "static/js/703.44a3b2a1.chunk.js": "/atlan/static/js/703.44a3b2a1.chunk.js",
     "static/js/198.4295fdd0.chunk.js": "/atlan/static/js/198.4295fdd0.chunk.js",
     "static/media/logo.png": "/atlan/static/media/logo.814e8a69d3e81ffe2530.png",
     "index.html": "/atlan/index.html",
     "main.85f4f4ad.css.map": "/atlan/static/css/main.85f4f4ad.css.map",
-    "main.1ddf79d0.js.map": "/atlan/static/js/main.1ddf79d0.js.map",
+    "main.1fa08fb0.js.map": "/atlan/static/js/main.1fa08fb0.js.map",
     "498.ad07b1f9.chunk.js.map": "/atlan/static/js/498.ad07b1f9.chunk.js.map",
     "703.44a3b2a1.chunk.js.map": "/atlan/static/js/703.44a3b2a1.chunk.js.map",
     "198.4295fdd0.chunk.js.map": "/atlan/static/js/198.4295fdd0.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.85f4f4ad.css",
-    "static/js/main.1ddf79d0.js"
+    "static/js/main.1fa08fb0.js"
   ]
 }
